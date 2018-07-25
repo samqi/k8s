@@ -22,6 +22,9 @@ sudo helm init
 sudo kubectl create -f rbac-config.yaml
 #helm initialise  tiller account
 sudo helm init --service-account tiller --upgrade
+```
 
 3. Deploy the sample Go app to Kubernetes
+```
 sudo helm install -n go-k8s ./go-k8s
+```
