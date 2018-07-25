@@ -1,6 +1,6 @@
 FROM gcr.io/bitnami-containers/minideb-extras:jessie-r14
 
-MAINTAINER Bitnami <containers@bitnami.com>
+MAINTAINER Sam Ng <samng.qi@gmail.com>
 
 COPY app-code/http-sample /app/http-sample
 
