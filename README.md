@@ -28,3 +28,8 @@ sudo helm init --service-account tiller --upgrade
 ```
 sudo helm install -n go-k8s ./go-k8s
 ```
+
+4. Verify application has been deployed and running, check for Name that begins with `go-k8s-`
+```
+sudo kubectl get pods --all-namespaces 
+```
