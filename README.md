@@ -1,11 +1,11 @@
-# Piktochart - Kubernetes deployment
+# Kubernetes deployment
 -----
 Deployment example of a simple Go app deployment for Kubernetes
 
 1. Clone this repo
 ```
-git@github.com:samqi/pikto-k8s.git
-cd pikto-k8s/
+git@github.com:samqi/k8s.git
+cd k8s/
 ```
 
 2. Use Helm to manage deployments - Install and initialise Helm & access
